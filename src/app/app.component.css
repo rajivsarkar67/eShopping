@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: indigo;
+    color: #ddd;
+    height: 3rem;
+}
+
+.title{
+    margin: 0.8rem 0 0 2rem; font-size: large; cursor: pointer;
+}
+
+.right_side{
+    display: inline; margin-right: 2rem;
+}
+
+.cart{
+    cursor: pointer;
+}
+
+.avatar{
+    margin-left: 1rem; cursor: pointer; font-size: large;
+    background-color: #673ab7; border-radius: 1.4rem;
+}
+
+.material-icons{
+    vertical-align: -6px;
+}
+
+::ng-deep .mat-menu-panel{
+        background-color: #673ab7 !important;
+}
+::ng-deep .mat-menu-item{
+    color: #ddd !important;
+}
+
+footer{
+    text-align: center;
+    background-color: indigo;
+    color: #ddd;
+}

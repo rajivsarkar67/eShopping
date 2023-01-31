@@ -1,0 +1,32 @@
+.main_body{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 30%;
+    margin: 1rem;
+    height: 22rem;
+    border: 1px solid indigo;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+@media screen and (max-width: 500px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px){
+    .card{
+        width: 44%;
+    }
+}

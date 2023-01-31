@@ -1,0 +1,8 @@
+<div class="main_body">
+    <article *ngFor="let item of productsList; let i=index;" class="card">
+        <h2>{{item.name}}</h2>
+        <img [src]="item.image">
+        <p>{{item.description}}</p>
+        <button mat-raised-button color="primary" (click)="addItemToCart(item, i)"> Add to Cart </button>
+    </article>
+</div>
